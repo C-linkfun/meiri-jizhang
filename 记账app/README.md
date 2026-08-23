@@ -1,34 +1,15 @@
-# jizhang
+# 每日记账
 
-An Electron application with React and TypeScript
+Windows 个人记账桌面应用（Electron + React + TypeScript）。
 
-## Recommended IDE Setup
+> 项目完整介绍见仓库根目录 [README.md](../README.md)；产品与技术总纲见 [CLAUDE.md](CLAUDE.md)。
 
-- [VSCode](https://code.visualstudio.com/) + [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) + [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-
-## Project Setup
-
-### Install
+## 常用命令
 
 ```bash
-$ npm install
-```
-
-### Development
-
-```bash
-$ npm run dev
-```
-
-### Build
-
-```bash
-# For windows
-$ npm run build:win
-
-# For macOS
-$ npm run build:mac
-
-# For Linux
-$ npm run build:linux
+npm install          # 安装依赖
+npm run dev          # 启动开发模式
+npm run typecheck    # 类型检查
+npm run lint         # 代码规范检查
+npm run build:win    # 构建 Windows 安装包（产物在 dist/）
 ```
